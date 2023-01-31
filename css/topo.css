@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 * {
     box-sizing: border-box;
 }
@@ -13,14 +16,26 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    background: grey;
-    border: 1px solid rgb(0, 0, 0);
+    background: rgb(241, 241, 241);
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 100%;
+    position: fixed;
 
 }
 
 nav .logo {
     flex: 30%;
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+nav .logo p {
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 50px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* font-family: 'Pacifico', cursive; */
 }
 
 nav .navegacao {
@@ -30,64 +45,66 @@ nav .navegacao {
     justify-content: flex-end;
     border: 1px solid red;
 
+
 }
 
 nav .navegacao a {
+    display: flex;
     text-decoration: none;
     padding: 10px;
     margin-left: 30px;
-    background: white;
+    /* background: white; */
     border: 1px solid rgb(0, 0, 0);
 }
 
-
-.topo {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border: 1px solid red;
-    flex-direction: row;
-    color: gray;
-
+nav .navegacao img {
+    height: 30px;
+    width: 30px;
 }
 
-.txt_topo {
+.head {
+    display: flex;
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid rgb(0, 255, 38);
+    flex-direction: row;
+    color: gray;
+}
+
+.head .cabecalho {
     display: flex;
     flex: 50%;
     flex-direction: column;
     border: 1px solid red;
+    align-items: center;
 }
 
-.txt_topo h1 {
+.head .cabecalho h1 {
     /* border: 1px solid red; */
-    font-size: 35px;
+    font-size: 60px;
     margin-bottom: 0%;
+    margin-top: 100px;
 }
 
-.txt_topo p {
+.head .cabecalho img {
     /* border: 1px solid red; */
-    font-size: 25px;
-    margin-top: 0%;
+    height: 50px;
+    width: 60px;
+
 }
 
-.txt_topo h2 {
+
+.head img {
+    /* display: flex; */
+    flex: 50%;
+    height: 600px;
+    width: 600px;
     /* border: 1px solid red; */
-    font-size: 70px;
 }
 
-.topo img {
-    /* flex: 50%; */
-    height: 300px;
-    width: 350px;
-    border-radius: 100%;
-    margin-left: 100px;
-    /* float: left; */
-    border: 1px solid red;
 
-}
-
-.sobre {
+.head .sobre {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
