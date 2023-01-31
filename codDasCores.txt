@@ -1,0 +1,8 @@
+#404A80
+#66FFD5
+#E8F1FD
+#CFDBFD
+#D2D6D2
+
+#2E42AF - principal
+#5E91FF - opcao 2 - Azul claro
