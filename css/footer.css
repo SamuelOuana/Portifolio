@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #2E42AF;
+
+}
+
+.link_redes {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+
+}
+
+.link_redes img {
+    width: 40px;
+    height: 40px;
+
+}
