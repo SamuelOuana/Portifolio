@@ -9,13 +9,14 @@ body {
     display: flex;
     background: white;
     flex-direction: column;
+    /* border: 7px solid rgb(166, 255, 0); */
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    background: #2E42AF;
-    /* border: 1px solid rgb(0, 0, 0); */
+    background: #5764b3;
+    /* border: 7px solid rgb(204, 2, 2); */
     width: 100%;
     position: fixed;
 
@@ -48,8 +49,9 @@ nav .navegacao {
     display: flex;
     flex: 50%;
     flex-flow: row wrap;
-    justify-content: center;
-    border: 1px solid red;
+    justify-content: right;
+    margin-right: 40px;
+    /* border: 1px solid red; */
 }
 
 nav .navegacao a {

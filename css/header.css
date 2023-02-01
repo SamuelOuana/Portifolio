@@ -2,17 +2,17 @@
     box-sizing: border-box;
 }
 
-.head {
+header {
     display: flex;
     flex-direction: column;
     margin-top: 250px;
     margin-left: 100px;
     margin-right: 100px;
-    border: 1px solid rgb(255, 0, 230);
     color: gray;
 }
 
-.head .cabecalho {
+
+header {
     display: flex;
     flex: 50%;
     flex-direction: column;
@@ -21,13 +21,13 @@
     color: #2E42AF;
 }
 
-.head .cabecalho h1 {
+header h1 {
     /* border: 1px solid red; */
     font-size: 60px;
     margin-bottom: 0%;
 }
 
-.head .cabecalho h2 {
+header h2 {
     /* border: 1px solid red; */
     font-size: 80px;
     margin-bottom: 0%;
@@ -35,26 +35,16 @@
 
 }
 
-.head .cabecalho p {
+header p {
     /* border: 1px solid red; */
     font-size: 30px;
     margin-top: 0px;
 }
 
 
-.head .cabecalho #localizacao img {
-    border: 1px solid red;
+header img {
+    /* border: 1px solid red; */
     width: 70px;
     height: 70px;
     margin-top: 150px;
-}
-
-.head .sobre {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    color: gray;
-
 }

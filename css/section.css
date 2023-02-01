@@ -1,8 +1,38 @@
-section {
-    border: 1px solid blue;
+body section {
+    /* border: 7px solid blue; */
     display: flex;
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 100px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre img {
+    border: 1px solid rgb(255, 98, 0);
+    width: 600px;
+    height: 500px;
+
+}
+
+.sobre .sobremim {
+    flex: 50%;
+    border: 1px solid rgb(255, 98, 0);
+    margin-left: 150px;
+}
+
+.sobre .sobremim h2 {
+    font-size: 30px;
+
+}
+
+.sobre .sobremim p {
+    text-align: justify;
+    font-size: 22px;
+    padding-top: 0px;
+
 }
