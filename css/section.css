@@ -35,3 +35,45 @@ body section {
     font-size: 22px;
     padding-top: 0px;
 }
+
+.linguagens {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 200px;
+    border: 1px solid rgb(255, 98, 0);
+}
+
+.linguagens .linguagensU {
+    flex: 50%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.linguagens .linguagensF {
+    flex: 50%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.linguagens .linguagensU img {
+    width: 50px;
+    height: 50px;
+}
+
+.linguagens .linguagensF img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.projectos {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 200px;
+    border: 1px solid rgb(255, 98, 0);
+}
+
+.projectos img {
+    height: 500px;
+    width: 650px;
+}
