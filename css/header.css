@@ -41,10 +41,32 @@ header p {
     margin-top: 0px;
 }
 
+header .localizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 150px;
+}
 
-header img {
+header .localizacao img {
     /* border: 1px solid red; */
     width: 70px;
     height: 70px;
-    margin-top: 150px;
+
+}
+
+header .localizacao :hover img {
+    /* border: 1px solid red; */
+    width: 80px;
+    height: 80px;
+}
+
+header .localizacao p {
+    visibility: hidden;
+    font-size: 20px;
+}
+
+header .localizacao:hover p {
+    visibility: visible;
 }
