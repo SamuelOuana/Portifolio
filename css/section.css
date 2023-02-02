@@ -73,7 +73,20 @@ body section {
     border: 1px solid rgb(255, 98, 0);
 }
 
+.projectos2 {
+    display: flex;
+    flex-flow: column wrap;
+
+    border: 1px solid rgb(255, 98, 0);
+}
+
+.projectos2 p {
+    text-align: center;
+    font-size: 50px;
+}
+
 .projectos img {
     height: 500px;
     width: 650px;
+    margin: 30px;
 }
