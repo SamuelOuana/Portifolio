@@ -41,6 +41,7 @@ body section {
     flex-flow: column wrap;
     margin-top: 200px;
     border: 1px solid rgb(255, 98, 0);
+    text-align: center;
 }
 
 .linguagens .linguagensU {
@@ -52,7 +53,7 @@ body section {
 .linguagens .linguagensF {
     flex: 50%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 
 .linguagens .linguagensU img {
