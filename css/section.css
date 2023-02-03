@@ -6,7 +6,7 @@
 }
 
 body section {
-    border: 7px solid blue;
+    /* border: 7px solid blue; */
     display: flex;
     flex-direction: column;
     margin-left: 150px;
@@ -17,11 +17,11 @@ body section {
 .sobre {
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(255, 98, 0);
+    /* border: 1px solid rgb(255, 98, 0); */
 }
 
 .sobre img {
-    border: 1px solid rgb(255, 98, 0);
+    /* border: 1px solid rgb(255, 98, 0); */
     width: 500px;
     height: 400px;
 
@@ -29,12 +29,14 @@ body section {
 
 .sobre .sobremim {
     flex: 70%;
-    border: 1px solid rgb(255, 98, 0);
+    /* border: 1px solid rgb(255, 98, 0); */
     margin-left: 150px;
 }
 
 .sobre .sobremim h2 {
     font-size: 30px;
+    color: #2E42AF;
+
 
 }
 
@@ -48,32 +50,36 @@ body section {
     display: flex;
     flex-flow: column;
     margin-top: 200px;
-    border: 1px solid rgb(255, 98, 0);
+    /* border: 1px solid rgb(255, 98, 0); */
     text-align: center;
+    align-items: center;
+    color: #2E42AF;
 }
 
 .linguagem .linguagens {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
 }
 
 .linguagens .linguagensU {
     flex: 50%;
     display: flex;
     flex-flow: column;
-    border: 1px solid rgb(9, 255, 0);
+    /* border: 1px solid rgb(9, 255, 0); */
 }
 
 .linguagens .linguagensF {
     flex: 50%;
     display: flex;
     flex-flow: column;
-    border: 1px solid rgb(9, 255, 0);
+    /* border: 1px solid rgb(9, 255, 0); */
 }
 
 #items {
     display: flex;
     flex-flow: nowrap;
+
+
 }
 
 #cadaItem {
@@ -93,25 +99,27 @@ body section {
 
 .projectos {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     margin-top: 200px;
-    border: 1px solid rgb(255, 98, 0);
+    /* border: 1px solid rgb(255, 98, 0); */
 }
 
 .projectos2 {
     display: flex;
     flex-flow: row wrap;
-
-    border: 1px solid rgb(255, 98, 0);
+    /* border: 1px solid rgb(255, 98, 0); */
 }
 
-.projectos2 p {
+.projectos p {
     text-align: center;
     font-size: 50px;
+    color: #2E42AF;
+
 }
 
 .projectos img {
     height: 500px;
     width: 650px;
-    margin: 30px;
+    margin: 20px;
+    border: 1px solid rgb(214, 214, 214);
 }
