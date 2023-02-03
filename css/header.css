@@ -1,21 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family= Martel: wght @200 & display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Martel', serif;
 }
-
-header {
-    display: flex;
-    flex-direction: column;
-    margin-top: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
-    color: gray;
-}
-
 
 header {
     display: flex;
     flex: 50%;
     flex-direction: column;
+    margin-top: 300px;
+    margin-left: 150px;
+    margin-right: 100px;
     /* border: 1px solid red; */
     align-items: center;
     color: #2E42AF;
