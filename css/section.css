@@ -86,14 +86,14 @@ body section {
 
 .projectos {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     margin-top: 200px;
     border: 1px solid rgb(255, 98, 0);
 }
 
 .projectos2 {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 
     border: 1px solid rgb(255, 98, 0);
 }
