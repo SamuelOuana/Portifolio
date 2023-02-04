@@ -43,7 +43,7 @@ body section {
 .sobre .sobremim p {
     text-align: justify;
     font-size: 22px;
-    padding-top: 0px;
+    line-height: 35px;
 }
 
 .linguagem {
@@ -53,6 +53,12 @@ body section {
     /* border: 1px solid rgb(255, 98, 0); */
     text-align: center;
     align-items: center;
+    color: #2E42AF;
+}
+
+.linguagem h2 {
+    text-align: center;
+    font-size: 30px;
     color: #2E42AF;
 }
 
@@ -78,8 +84,6 @@ body section {
 #items {
     display: flex;
     flex-flow: nowrap;
-
-
 }
 
 #cadaItem {
@@ -110,16 +114,16 @@ body section {
     /* border: 1px solid rgb(255, 98, 0); */
 }
 
-.projectos p {
+.projectos h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     color: #2E42AF;
 
 }
 
 .projectos img {
-    height: 500px;
-    width: 650px;
+    height: 400px;
+    width: 550px;
     margin: 20px;
     border: 1px solid rgb(214, 214, 214);
 }
