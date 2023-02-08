@@ -10,6 +10,7 @@
 
 body {
     width: 100%;
+    background-color: rgb(252, 252, 252);
 }
 
 #header {
@@ -17,21 +18,13 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 20px;
-    background: rgb(251, 251, 251);
+    background: rgb(255, 255, 255);
     box-shadow: 0 5px 15px rgba(0, 5, 0, 0);
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
     justify-content: center;
-}
-
-#header a img {
-    height: 40px;
-    /* background: rgb(0, 0, 0); */
-    border-radius: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 #navbar {
@@ -51,10 +44,17 @@ body {
     font-size: 25px;
     font-weight: 200;
     color: #2E42AF;
-    transition: 0.3s ease;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* transition: 0.3s ease; */
+
 }
 
 #navbar li a:hover,
 #navbar li a.active {
-    color: #088178;
+    color: #01a43d;
+    padding-bottom: 5px;
+    /* font-size: 26px; */
+    font-weight: 600;
+    border-bottom: 2px solid #01a43d;
 }
