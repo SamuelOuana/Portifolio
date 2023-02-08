@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family= Martel: wght @200 & display=swap');
+
+* {
+
+    font-family: 'Martel', serif;
+}
+
+/* .secction-1 {
+    padding: 40px 80px;
+} */
+
+
+#sobremim {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 250px;
+    /* padding-bottom: 100px; */
+
+    border: 3px solid rgb(255, 98, 0);
+}
+
+#sobremim img {
+    /* border: 1px solid rgb(255, 98, 0); */
+    width: 500px;
+    height: 400px;
+
+}
+
+#sobremim .sobre {
+    flex: 70%;
+    /* border: 1px solid rgb(255, 98, 0); */
+    margin-right: 150px;
+}
+
+#sobremim .sobre h2 {
+    font-size: 30px;
+    color: #2E42AF;
+
+
+}
+
+#sobremim .sobre p {
+    text-align: justify;
+    font-size: 22px;
+    line-height: 35px;
+}

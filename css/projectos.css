@@ -1,0 +1,26 @@
+.projectos {
+    display: flex;
+    flex-flow: column;
+    margin-top: 200px;
+    /* border: 1px solid rgb(255, 98, 0); */
+}
+
+.projectos2 {
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid rgb(255, 98, 0); */
+}
+
+.projectos h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #2E42AF;
+
+}
+
+.projectos img {
+    height: 400px;
+    width: 550px;
+    margin: 20px;
+    border: 1px solid rgb(214, 214, 214);
+}
